@@ -1,6 +1,6 @@
 # Project Name
 
-### [Demo](https://link-to-github-pages.com)
+### [Demo](https://annasakivska.github.io/uber-eats-landing/src/index.html)
 
 ### Description
 
