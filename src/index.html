@@ -2,10 +2,130 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Title</title>
+  <title>Uber eats</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <link href="main.css" rel="stylesheet">
 </head>
 <body>
-  <h1>Starter Template</h1>
+<header class="header">
+  <div class="header__inner-wrapper">
+    <div class="header__logo-wrapper">
+      <img class="logo" src="img/logo.svg" alt="Logo">
+    </div>
+
+    <div class="delivery-terms header__delivery-terms-wrapper">
+      <label class="delivery-terms__form">
+        <input class="delivery-terms__time-settings" placeholder="ASAP" type="text">
+      </label>
+      <h3 class="delivery-terms__description">to</h3>
+      <label class="delivery-terms__location">
+        <input class="delivery-terms__address" placeholder=" ul. Tarasivska St, 16 " type="text">
+      </label>
+    </div>
+
+    <div class="authorization-options header-authorization__wrapper">
+      <form class="authorization-form" action="#">
+        <input class="authorization-button" type="submit" value="Sign In">
+      </form>
+      <form class="authorization-form" action="#">
+        <input class="authorization-button authorization-button_black" type="submit" value="Register">
+      </form>
+    </div>
+    <a class="header__buying-link">
+      <img class="header__buying-logo" src="img/basket.svg" alt="">
+    </a>
+  </div>
+</header>
+
+<div class="restaurants-search__wrapper">
+  <div class="restaurants-search__container">
+    <label class="restaurants-search">
+      <input class="restaurants-search__input" type="text" placeholder="Search for restaurant or cuisine">
+    </label>
+  </div>
+</div>
+
+<section class="restaurant-cards__section">
+  <h2 class="restaurant-cards__title">Kyiv Restaurants</h2>
+  <ul class="restaurant-cards">
+    <li class="restaurant-option">
+      <div class="restaurant-option__image-wrapper"></div>
+      <div class="restaurant-option__description restaurant-option_grey-background">
+        <h2 class="restaurant-option__name">Макдоналдс</h2>
+        <h3 class="restaurant-option__average-price">₴₴ • Бургеры</h3>
+        <h4 class="restaurant-option__cooking-time">25 - 35 Min</h4>
+      </div>
+    </li>
+    <li class="restaurant-option">
+      <div class="restaurant-option__image-wrapper"></div>
+      <div class="restaurant-option__description">
+        <h2 class="restaurant-option__name">Макдоналдс</h2>
+        <h3 class="restaurant-option__average-price">₴₴ • Бургеры</h3>
+        <h4 class="restaurant-option__cooking-time">25 - 35 Min</h4>
+      </div>
+    </li>
+    <li class="restaurant-option">
+      <div class="restaurant-option__image-wrapper"></div>
+      <div class="restaurant-option__description">
+        <h2 class="restaurant-option__name">Макдоналдс</h2>
+        <h3 class="restaurant-option__average-price">₴₴ • Бургеры</h3>
+        <h4 class="restaurant-option__cooking-time">25 - 35 Min</h4>
+      </div>
+    </li>
+    <li class="restaurant-option">
+      <div class="restaurant-option__image-wrapper"></div>
+      <div class="restaurant-option__description">
+        <h2 class="restaurant-option__name">Макдоналдс</h2>
+        <h3 class="restaurant-option__average-price">₴₴ • Бургеры</h3>
+        <h4 class="restaurant-option__cooking-time">25 - 35 Min</h4>
+      </div>
+    </li>
+    <li class="restaurant-option">
+      <div class="restaurant-option__image-wrapper"></div>
+      <div class="restaurant-option__description">
+        <h2 class="restaurant-option__name">Макдоналдс</h2>
+        <h3 class="restaurant-option__average-price">₴₴ • Бургеры</h3>
+        <h4 class="restaurant-option__cooking-time">25 - 35 Min</h4>
+      </div>
+    </li>
+    <li class="restaurant-option">
+      <div class="restaurant-option__image-wrapper"></div>
+      <div class="restaurant-option__description">
+        <h2 class="restaurant-option__name">Макдоналдс</h2>
+        <h3 class="restaurant-option__average-price">₴₴ • Бургеры</h3>
+        <h4 class="restaurant-option__cooking-time">25 - 35 Min</h4>
+      </div>
+    </li>
+    <li class="restaurant-option">
+      <div class="restaurant-option__image-wrapper"></div>
+      <div class="restaurant-option__description">
+        <h2 class="restaurant-option__name">Макдоналдс</h2>
+        <h3 class="restaurant-option__average-price">₴₴ • Бургеры</h3>
+        <h4 class="restaurant-option__cooking-time">25 - 35 Min</h4>
+      </div>
+    </li>
+    <li class="restaurant-option">
+      <div class="restaurant-option__image-wrapper"></div>
+      <div class="restaurant-option__description">
+        <h2 class="restaurant-option__name">Макдоналдс</h2>
+        <h3 class="restaurant-option__average-price">₴₴ • Бургеры</h3>
+        <h4 class="restaurant-option__cooking-time">25 - 35 Min</h4>
+      </div>
+    </li>
+    <li class="restaurant-option">
+      <div class="restaurant-option__image-wrapper"></div>
+      <div class="restaurant-option__description">
+        <h2 class="restaurant-option__name">Макдоналдс</h2>
+        <h3 class="restaurant-option__average-price">₴₴ • Бургеры</h3>
+        <h4 class="restaurant-option__cooking-time">25 - 35 Min</h4>
+      </div>
+    </li>
+  </ul>
+</section>
+<footer class="footer">
+  <div class="footer__logo-wrapper">
+    <img class="logo" src="img/white-logo.svg" alt="Logo">
+  </div>
+</footer>
 </body>
 </html>

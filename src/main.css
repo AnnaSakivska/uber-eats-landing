@@ -1,5 +1,14 @@
+@import url("header/header.css");
+@import url("vars.css");
+@import url("header/delivery-terms.css");
+@import url("header/authorization-options.css");
+@import url("restaurants-search.css");
+@import url("restaurant-cards.css");
+@import url("footer.css");
+
 * {
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 body {
