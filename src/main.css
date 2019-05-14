@@ -5,10 +5,15 @@
 @import url("restaurants-search.css");
 @import url("restaurant-cards.css");
 @import url("footer.css");
+@import url("restaurant-main.css");
+@import url("restaurant-label.css");
+@import url("restaurant-nav.css");
+@import url("restaurant-menu.css");
 
 * {
   box-sizing: border-box;
   text-decoration: none;
+  list-style: none;
 }
 
 body {
