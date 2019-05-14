@@ -1,6 +1,7 @@
 # Project Name
 
-### [Demo](https://annasakivska.github.io/uber-eats-landing/src/index.html)
+### [Demo for Stores](https://annasakivska.github.io/uber-eats-landing/src/stores.html)
+
 
 ### Description
 
